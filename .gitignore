@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+*.o
+*.out
+*.exe
+
+# Test executables
+tests/test_bs
+tests/test_mc
+tests/*_test
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (keep structure, ignore content)
+data/*.csv
+data/*.txt
+data/*.db*
+!data/.gitkeep
+examples/
